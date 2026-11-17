@@ -1,0 +1,9 @@
+# Python-generated files.
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+# Virtual Environments.
+.venv
+data/
+models/
+.env
