@@ -7,7 +7,10 @@ authors = [
     { name = "Shasidhar Bellam", email = "sasi1645@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pandas>=3.1.1",
+    "pyarrow>=26.0.1",
+]
 
 [project.scripts]
 mortgage-default-risk = "mortgage_default_risk:main"
@@ -18,6 +21,7 @@ build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
+    "ipykernel>=7.4.0",
     "pytest>=9.2.0",
     "ruff>=0.17.5",
 ]
